@@ -59,7 +59,7 @@ Gordion Generator merges layers as PNG in selected folders in the order shown in
 - Enter name, decription and base IPFS uri (If you are self hosting you can put self-hosting base URI)
 - Click "Update Metadata" button
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/thereturn932)
 
 ## To Contribute
 
