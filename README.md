@@ -71,3 +71,6 @@ Gordion Generator merges layers as PNG in selected folders in the order shown in
 
 - Open an issue with request or send a pull request if you added new features
 
+### TO-DO
+- Video effects
+
