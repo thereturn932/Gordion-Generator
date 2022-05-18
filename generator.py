@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Sat Mar 26 17:13:22 2022
 
-@author: mbura
+@author: thereturn932
 """
 from PyQt5.QtCore import QObject, pyqtSignal
 import os
@@ -39,8 +38,8 @@ class Generator(QObject):
 
         for i in range(0, len(os.listdir(subDirs[i]))):
             final = Image.new("RGBA", layers[0][0].size, color)
-            for j in range(0, len(layers)):
-                final = Image.alpha_composite(final, layers[j][i])
+            for layer in layers:
+                final = Image.alpha_composite(final, layer[i])
             outDir = os.path.join(outputFolderNameFrames, f"{i:04d}.png")
             final.save(outDir)
             self.progressStatus.emit(f"{outDir}.png Created")
